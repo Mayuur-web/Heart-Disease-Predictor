@@ -18,7 +18,7 @@ from sklearn.neural_network import MLPClassifier
 import matplotlib.pyplot as plt
 
 # 2. Load Data
-df = pd.read_csv("heart.csv")  # change filename if needed
+df = pd.read_csv("heart.csv")  
 print(df.head())
 print(df.info())
 print(df['target'].value_counts())
@@ -58,7 +58,7 @@ models = {
 results = []
 
 for name, model in models.items():
-    # use scaled data for all; trees don't need it but it's fine
+    
     model.fit(X_train_scaled, y_train)
     y_pred = model.predict(X_test_scaled)
     y_proba = model.predict_proba(X_test_scaled)[:, 1]
