@@ -105,6 +105,8 @@ After clicking **Predict**, you will see:
 - 💔 **High chance of heart disease**
 - Probability score (0–1)
 
+- Live now : [https://heart-disease-predictor-mayuur.streamlit.app/]
+
 ---
 
 ## 📁 Project Structure
@@ -139,6 +141,7 @@ pip install -r requirements.txt
 For any questions or feedback, feel free to open an issue or reach out via [GitHub](https://github.com/Mayuur-web).
 
 ---
+
 
 
 
