@@ -1,4 +1,4 @@
-````markdown name=README.md url=https://github.com/Mayuur-web/Heart-Disease-Predictor/blob/810480009f63bba1c9869034094beb937e8e2c99/README.md
+
 # ❤️ Heart Disease Prediction Using Machine Learning
 
 This project predicts whether a patient has heart disease (`0 = No`, `1 = Yes`) using multiple machine learning classification models.  
@@ -140,3 +140,4 @@ For any questions or feedback, feel free to open an issue or reach out via [GitH
 
 ---
 ````
+
